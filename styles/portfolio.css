@@ -1,6 +1,8 @@
 * {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    color: blue;
+    /* background: rgb(198, 212, 202); */
 }
 
 .text-primary {
@@ -201,4 +203,35 @@ section {
 .resume-btn {
     margin-top: 50px;
     text-align: center;
+}
+
+/* Contract styles */
+.contract {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contract .section-title {
+    text-align: left;
+
+}
+
+.contract input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input {
+    height: 64px;
+}
+
+.section-description {
+    margin-bottom: 30px;
 }
