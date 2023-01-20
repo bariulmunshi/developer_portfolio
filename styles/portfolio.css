@@ -180,9 +180,9 @@ section {
     margin-bottom: 30px;
 }
 
-.resume-title {
-    /* margin-bottom: 30px; */
-}
+/* .resume-title {
+    margin-bottom: 30px;
+} */
 
 .resume .title {
     color: #474747;
@@ -235,4 +235,54 @@ input {
 
 .section-description {
     margin-bottom: 30px;
+}
+
+@media screen and (max-width:576px) {
+    .header {
+        background-image: none;
+    }
+
+    .banner,
+    .skills-container,
+    .resume-content,
+    .about-info-container,
+    .contract {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 20px;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about {
+        padding: 20px;
+    }
+
+    .contract input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 0 0 0 5px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    .banner,
+    .skills-container,
+    .resume-content,
+    .about-info-container,
+    .contract {
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+
+    .about {
+        padding: 20px;
+    }
+}
+
+.hide {
+    display: none;
 }
